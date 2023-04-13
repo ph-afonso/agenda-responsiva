@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Minha Agenda</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <title>Minha Agenda</title>
 </head>
 <body>
     <header class="perfil">
         <img class="perfil__foto" src="assets/img/perfil.svg" alt=" Foto de perfil Dra. Sônia">
         <div class="perfil__informacoes">
-            <h3>
-                Olá, Sônia
-            </h3>
-            <h4>
-                Mais 4 consultas hoje
-            </h4>
+            <h3>Olá, Sônia</h3>
+            <h4>Mais 4 consultas hoje</h4>
         </div>
     </header>
+    <section class="agenda">
+        <h3 class="agenda__data">Hoje</h3>
+        <div class="agenda__card">
+            <div class="agenda__card-header">
+                <img class="card__header-foto" src="assets/img/paciente_1.svg" alt="Foto da paciente Luciana Dias">
+                <div class="card__header-informacao">
+                    <h3>Luciana Dias</h3>
+                    <h4>
+                        <span class="material-symbols-outlined">
+                            videocam
+                        </span>
+                        Consulta remota
+                    </h4>
+                </div>
+                <a href="#" class="card__header-contato">
+                    <span class="material-symbols-outlined">
+                        chat_bubble
+                    </span>
+                </a>
+            </div>
+            <hr>
+            <div class="agenda__card-body">
+                <h3>14:00 - 15:00 (1 hora)</h3>
+                <div class="card__body-actions">
+                    <button class="btn btn--principal">Ligar por vídeo</button>
+                    <button class="btn btn--secundario">Ligar por áudio</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

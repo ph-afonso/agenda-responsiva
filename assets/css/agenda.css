@@ -1,0 +1,83 @@
+.agenda {
+
+}
+
+.agenda__data {
+    padding: 0.5em 0em 0.5em 1em;
+    color: var(--cor-de-texto-principal);
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+.agenda__card {
+    background-color: var(--cor-de-fundo-secundaria);
+    margin: 0em 1em;
+    border: 0.06em solid var(--cor-de-texto-tercearia);
+    border-radius: 0.5em;
+    padding: 1em ;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.agenda__card-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    align-items: center;
+    margin-bottom: 0.75em;
+}
+
+.card__header-foto {
+    max-width: 100%;
+    width: 2em;
+    border-radius: 1em;
+}
+
+.card__header-informacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__header-informacao h3 {
+    color: var(--cor-de-texto-principal);
+    font-weight: 700;
+    font-size: 0.87em;
+    line-height: 1.4em;
+}
+
+.card__header-informacao h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: var(--cor-de-texto-secundaria);
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1.2em;
+}
+
+.card__header-contato {
+    margin-left: auto;
+    background-color: var(--cor-de-fundo-principal);
+    padding: 0.58em;
+    border-radius: 3em;
+    font-size: 0.87em;
+    color: #4894FF;
+}
+
+.agenda__card-body {
+    margin-top: 0.56em;
+}
+
+.agenda__card-body h3 {
+    color: var(--cor-de-texto-principal);
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.card__body-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.12em;
+}

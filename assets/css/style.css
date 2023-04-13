@@ -1,13 +1,21 @@
 @import url(normalize.css);
 @import url(perfil.css);
+@import url(agenda.css);
+@import url(buttons.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 :root {
     --cor-de-fundo-principal: rgba(220, 220, 220, 0.3);
+    --cor-de-fundo-secundaria: #FFFFFF;
     --fonte-principal: 'Montserrat', sans-serif;
     --cor-de-texto-principal: #464646;
     --cor-de-texto-secundaria: #A3A3A3;
+    --cor-de-texto-tercearia: #ECECEC;
+    --cor-de-texto-quartenaria: #4894FF;
+    --cor-de-texto-quinternaria: #FFFFFF;
+    --cor-de-fundo-btn-principal: #FFB050;
+    --cor-de-fundo-btn-secundario: #FFFFFF;
 
 }
 
@@ -19,4 +27,12 @@
 body {
     background: var(--cor-de-fundo-principal);
     font-family: var(--fonte-principal);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
