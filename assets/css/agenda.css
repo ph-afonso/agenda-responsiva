@@ -1,5 +1,7 @@
 .agenda {
-
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .agenda__data {
