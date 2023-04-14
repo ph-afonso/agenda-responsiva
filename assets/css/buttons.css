@@ -24,3 +24,18 @@
     color: var(--cor-de-texto-quinternaria);
     border: none;
 }
+
+.btn--quartenario {
+    background-color: var(--cor-de-fundo-btn-terceario);
+    color: var(--cor-de-texto-quinternaria);
+    border: none;
+    border-radius: 3em;
+    padding: 0.81em 1em;
+    font-size: 0.87em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn--hide {
+    display: none;
+}
