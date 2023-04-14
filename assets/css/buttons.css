@@ -37,5 +37,18 @@
 }
 
 .btn--hide {
-    display: none;
+    transition: background 1s;
+    position: fixed;
+    bottom: 5;
+    right: 5;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    
+}
+
+.btn--show {
+    opacity: 1;
+    transform: translateY(-70%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
