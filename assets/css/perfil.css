@@ -33,3 +33,55 @@
     line-height: 1.4em;
     color: var(--cor-de-texto-secundaria);
 }
+
+@media screen and (min-width: 768px) {
+    .perfil__foto {
+        width: 4.57em;
+        border-radius: 3em;
+    }
+
+    .perfil__informacoes h3 {
+        font-size: 1.60em;
+    }
+    
+    .perfil__informacoes h4 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .perfil {
+        margin-bottom: 1.3em;
+    }
+    .perfil__foto {
+        width: 7em;
+        border-radius: 6em;
+    }
+
+    .perfil__informacoes h3 {
+        font-size: 2em;
+    }
+    
+    .perfil__informacoes h4 {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .perfil {
+        margin-bottom: 1.6em;
+    }
+    
+    .perfil__foto {
+        width: 9em;
+        border-radius: 6em;
+    }
+
+    .perfil__informacoes h3 {
+        font-size: 2.3em;
+    }
+    
+    .perfil__informacoes h4 {
+        font-size: 1.6em;
+    }
+}
